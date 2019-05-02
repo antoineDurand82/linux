@@ -18,7 +18,7 @@ Le plus compliqué de tous, la demande de base était de pouvoir faire des sauve
 ## Le script pour l'audio d'une vidéo youtube
 
 Ce script était le plus simple, il permet de donner l'url d'une vidéo youtube et l'audio de cette vidéo se fait télécharger dans le dossiers où la commande est lancé.
-Pour ce faire il fallait juste utiliser youtube-dl et pour cela il faut faire les commandes suivantes
-`sudo wget https://yt-dl.org/latest/youtube-dl -O /usr/local/bin/youtube-dl` téléchargement de youtube-dl
-`sudo chmod a+x /usr/local/bin/youtube-dl` on donne les autorisations d'exécution à l'application
+Pour ce faire il fallait juste utiliser youtube-dl et pour cela il faut faire les commandes suivantes<br>
+`sudo wget https://yt-dl.org/latest/youtube-dl -O /usr/local/bin/youtube-dl` téléchargement de youtube-dl<br>
+`sudo chmod a+x /usr/local/bin/youtube-dl` on donne les autorisations d'exécution à l'application<br>
 et enfin `hash -r`
