@@ -5,7 +5,7 @@ chiffre=$(((RANDOM % 1000) +1))
 read proposition
 tentative=0
 
-if [[ "proposition" =~ ^[0-9]+$ ]] 2> /dev/null
+if [[ $proposition =~ ^[0-9]+$ ]] 2> /dev/null
 	then
 		while test $proposition != $chiffre 2> /dev/null
 
